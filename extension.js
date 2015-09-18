@@ -51,8 +51,8 @@
       chatLink: "https://rawgit.com/bscBot/source/master/lang/en.json",
       scriptLink: "https://rawgit.com/bscBot/source/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
-      startupCap: 20, // 1-200
-      startupVolume: 50, // 0-100
+      startupCap: 10, // 1-200
+      startupVolume: 40, // 0-100
       startupEmoji: true, // true or false
       autowoot: true,
       autoskip: true,
@@ -102,7 +102,7 @@
       website: null,
       intervalMessages: [],
       messageInterval: 5,
-      songstats: true,
+      songstats: false,
       commandLiteral: "!",
       blacklists: {
         NSFW: "https://rawgit.com/bscBot/custom/master/blacklists/NSFWlist.json",
