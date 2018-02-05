@@ -46,13 +46,13 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "Mix Bot",
+      botName: "LDRV BSB BOT",
       language: "portuguese",
       chatLink: "https://rawgit.com/bscBot/source/master/lang/en.json",
       scriptLink: "https://rawgit.com/bscBot/source/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 10, // 1-200
-      startupVolume: 40, // 0-100
+      startupVolume: 100, // 0-100
       startupEmoji: true, // true or false
       autowoot: true,
       autoskip: true,
@@ -72,7 +72,7 @@
       voteSkipLimit: 10,
       historySkip: true,
       timeGuard: true,
-      maximumSongLength: 8,
+      maximumSongLength: 9,
       autodisable: true,
       commandCooldown: 30,
       usercommandsEnabled: true,
